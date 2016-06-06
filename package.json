@@ -1,0 +1,19 @@
+{
+  "name": "simple-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-core": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "protractor": "^3.3.0",
+    "ts-node": "^0.5.5",
+    "typescript": "^1.8.10"
+  }
+}
