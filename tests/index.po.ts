@@ -28,4 +28,8 @@ export class IndexPage {
     return element.all(by.css('.repo-list-name'));
   }
 
+  getSimpleE2EItem () {
+    return this.getSeachResultItems().all(by.linkText('simple-e2e')).get(0);
+  }
+
 }
